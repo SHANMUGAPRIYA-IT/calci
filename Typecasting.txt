@@ -1,0 +1,13 @@
+package infocomm;
+
+public class Conter {
+public static void main(String[] args) {
+	char a='A';
+	System.out.println("Enter:"+a);
+	int b=a;
+	System.out.println("Enter:"+b);
+	float c=b;
+	System.out.println("Enter"+c);
+	double d=c;
+	System.out.println("Enter:"+d);}
+}
