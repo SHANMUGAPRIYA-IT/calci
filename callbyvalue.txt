@@ -1,0 +1,23 @@
+package methodcall;
+import java.util.*;
+
+
+public class Callby {
+	
+	public static void main(String[] args) {
+		int a,b,c;
+		Scanner Sc = new Scanner(System.in);
+		System.out.println("Enter Values");
+		a = Sc.nextInt();
+		b = Sc.nextInt();
+		System.out.println("before swapping a= " +a);
+		System.out.println("b= "+b);
+		c = a;
+		a = b;
+		b = c;
+		System.out.println("After Swapping b= "+a);
+		System.out.println("a= "+b);			
+		}
+	}
+
+
